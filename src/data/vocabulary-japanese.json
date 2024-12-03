@@ -1,0 +1,22 @@
+{
+	"vocabulary": [
+		{
+			"kanji": "家族",
+			"kana": "かぞく",
+			"translation": "Family",
+			"examples": ["私の家族は四人です。", "家族と一緒に旅行します。"]
+		},
+		{
+			"kanji": "父",
+			"kana": "ちち",
+			"translation": "Father (your own father)",
+			"examples": ["父は教師です。", "父とキャッチボールをします。"]
+		},
+		{
+			"kanji": "お父さん",
+			"kana": "おとうさん",
+			"translation": "Father (used for others' fathers or politely for your own)",
+			"examples": ["お父さんはどこですか？", "お父さんによろしく伝えてください。"]
+		}
+	]
+}

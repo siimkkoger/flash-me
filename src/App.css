@@ -1,38 +1,77 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.flashcard-container {
+  width: 100%;
+  max-width: 400px;
+  perspective: 1000px;
+}
+
+.flashcard {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.flashcard-content {
+  margin-bottom: 20px;
+}
+
+.kanji {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.kana {
+  font-size: 1.5rem;
+  color: #1E90FF;
+  margin-bottom: 15px;
+}
+
+.examples {
+  margin-bottom: 15px;
+  color: #28a745;
+}
+
+.examples ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.examples li {
+  margin-bottom: 10px;
+}
+
+.translation {
+  font-size: 1.25rem;
+  color: #6f42c1;
+  margin-top: 15px;
+}
+
+.flashcard-controls {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flashcard-controls button {
+  background-color: #007bff;
   color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.flashcard-controls button:hover {
+  background-color: #0056b3;
 }
