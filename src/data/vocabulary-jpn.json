@@ -1,0 +1,143 @@
+{
+	"language": "JPN",
+	"items": [
+		{
+			"id": "jp001",
+			"language": "JPN",
+			"value": "家族",
+			"languageSpecifics": {
+				"kanji": "家族",
+				"kana": "かぞく",
+				"romaji": "kazoku",
+				"pitchAccent": "かぞく"
+			},
+			"translations": [
+				{
+					"id": "jp001-trans-eng",
+					"sourceLanguage": "JPN",
+					"targetLanguage": "ENG",
+					"sourceValue": "家族",
+					"targetValue": "Family"
+				},
+				{
+					"id": "jp001-trans-spa",
+					"sourceLanguage": "JPN",
+					"targetLanguage": "ESP",
+					"sourceValue": "家族",
+					"targetValue": "Familia"
+				}
+			],
+			"examples": [
+				{
+					"id": "jp001-ex1",
+					"value": "私の家族は四人です。",
+					"translations": [
+						{
+							"id": "jp001-ex1-trans-eng",
+							"sourceLanguage": "JPN",
+							"targetLanguage": "ENG",
+							"sourceValue": "私の家族は四人です。",
+							"targetValue": "My family has four people."
+						},
+						{
+							"id": "jp001-ex1-trans-spa",
+							"sourceLanguage": "JPN",
+							"targetLanguage": "ESP",
+							"sourceValue": "私の家族は四人です。",
+							"targetValue": "Mi familia tiene cuatro personas."
+						}
+					]
+				},
+				{
+					"id": "jp001-ex2",
+					"value": "家族と一緒に旅行します。",
+					"translations": [
+						{
+							"id": "jp001-ex2-trans-eng",
+							"sourceLanguage": "JPN",
+							"targetLanguage": "ENG",
+							"sourceValue": "家族と一緒に旅行します。",
+							"targetValue": "I travel with my family."
+						},
+						{
+							"id": "jp001-ex2-trans-spa",
+							"sourceLanguage": "JPN",
+							"targetLanguage": "ESP",
+							"sourceValue": "家族と一緒に旅行します。",
+							"targetValue": "Viajo con mi familia."
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "jp002",
+			"language": "JPN",
+			"value": "お父さん",
+			"languageSpecifics": {
+				"kanji": "お父さん",
+				"kana": "おとうさん",
+				"romaji": "otousan",
+				"pitchAccent": "おとうさん"
+			},
+			"translations": [
+				{
+					"id": "jp002-trans-eng",
+					"sourceLanguage": "JPN",
+					"targetLanguage": "ENG",
+					"sourceValue": "お父さん",
+					"targetValue": "Father"
+				},
+				{
+					"id": "jp002-trans-spa",
+					"sourceLanguage": "JPN",
+					"targetLanguage": "ESP",
+					"sourceValue": "お父さん",
+					"targetValue": "Padre"
+				}
+			],
+			"examples": [
+				{
+					"id": "jp002-ex1",
+					"value": "お父さんは会社で働いています。",
+					"translations": [
+						{
+							"id": "jp002-ex1-trans-eng",
+							"sourceLanguage": "JPN",
+							"targetLanguage": "ENG",
+							"sourceValue": "お父さんは会社で働いています。",
+							"targetValue": "Father works at a company."
+						},
+						{
+							"id": "jp002-ex1-trans-spa",
+							"sourceLanguage": "JPN",
+							"targetLanguage": "ESP",
+							"sourceValue": "お父さんは会社で働いています。",
+							"targetValue": "Mi padre trabaja en una empresa."
+						}
+					]
+				},
+				{
+					"id": "jp002-ex2",
+					"value": "お父さんと公園に行きました。",
+					"translations": [
+						{
+							"id": "jp002-ex2-trans-eng",
+							"sourceLanguage": "JPN",
+							"targetLanguage": "ENG",
+							"sourceValue": "お父さんと公園に行きました。",
+							"targetValue": "I went to the park with father."
+						},
+						{
+							"id": "jp002-ex2-trans-spa",
+							"sourceLanguage": "JPN",
+							"targetLanguage": "ESP",
+							"sourceValue": "お父さんと公園に行きました。",
+							"targetValue": "Fui al parque con mi padre."
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,150 @@
+.flashcard-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.flashcard {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+}
+
+.flashcard-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+/* Main word section */
+.main-word {
+    text-align: center;
+    padding: 16px;
+}
+
+.main-word h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+/* Translations section */
+.translations-section {
+    background-color: #f8f0ff;
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 16px;
+}
+
+.main-translation {
+    font-size: 1.5rem;
+    color: #6b46c1;
+    margin-bottom: 16px;
+}
+
+.alt-translations {
+    border-top: 1px solid #e9d8fd;
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.alt-translation {
+    color: #805ad5;
+    font-size: 1.25rem;
+}
+
+.language-tag {
+    font-size: 0.875rem;
+    color: #805ad5;
+    margin-left: 8px;
+}
+
+/* Examples section */
+.examples-section {
+    background-color: #f0fff4;
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 16px;
+}
+
+.examples-section h3 {
+    color: #2f855a;
+    font-size: 1.25rem;
+    margin: 0 0 16px 0;
+}
+
+.examples-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.example-item {
+    margin-bottom: 16px;
+}
+
+.example-text {
+    font-size: 1.125rem;
+    color: #276749;
+    margin-bottom: 8px;
+}
+
+.example-translations {
+    padding-left: 16px;
+    border-left: 2px solid #c6f6d5;
+    margin-top: 8px;
+}
+
+.example-translation {
+    color: #38a169;
+    margin-bottom: 4px;
+}
+
+/* Controls */
+.flashcard-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    gap: 12px;
+}
+
+.control-button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.2s;
+}
+
+.prev-button, .next-button {
+    background-color: #4299e1;
+    color: white;
+}
+
+.prev-button:hover, .next-button:hover {
+    background-color: #3182ce;
+}
+
+.reveal-button {
+    background-color: #48bb78;
+    color: white;
+}
+
+.reveal-button:hover {
+    background-color: #38a169;
+}
+
+.next-card-button {
+    background-color: #805ad5;
+    color: white;
+}
+
+.next-card-button:hover {
+    background-color: #6b46c1;
+}

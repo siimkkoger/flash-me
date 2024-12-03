@@ -1,0 +1,47 @@
+{
+	"language": "ESP",
+	"items": [
+		{
+			"id": "sp001",
+			"language": "ESP",
+			"value": "familia",
+			"translations": [
+				{
+					"id": "sp001-trans",
+					"sourceLanguage": "ESP",
+					"targetLanguage": "ENG",
+					"sourceValue": "familia",
+					"targetValue": "Family"
+				}
+			],
+			"examples": [
+				{
+					"id": "sp001-ex1",
+					"value": "Mi familia es muy importante para mí.",
+					"translations": [
+						{
+							"id": "sp001-ex1-trans",
+							"sourceLanguage": "ESP",
+							"targetLanguage": "ENG",
+							"sourceValue": "Mi familia es muy importante para mí.",
+							"targetValue": "My family is very important to me."
+						}
+					]
+				},
+				{
+					"id": "sp001-ex2",
+					"value": "Vamos de vacaciones con la familia.",
+					"translations": [
+						{
+							"id": "sp001-ex2-trans",
+							"sourceLanguage": "ESP",
+							"targetLanguage": "ENG",
+							"sourceValue": "Vamos de vacaciones con la familia.",
+							"targetValue": "We are going on vacation with the family."
+						}
+					]
+				}
+			]
+		}
+	]
+}
